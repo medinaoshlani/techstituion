@@ -1,0 +1,6 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+{% extends 'index.html'%}
+{% block form %}
+  <h1>This is form page</h1>
+  <p> Variabla : {{name}}</p>
+{% endblock form%}
